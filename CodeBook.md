@@ -1,4 +1,4 @@
-# Code book for Coursera / Get and Clean Data / Course project
+# Code book for Coursera, Get and Clean Data, Course project
 
 ## Description of measurements in data
 This description is a reference from the feature description of original dataset. For more detailed description of original data, see the original file "features_info.txt" in original dataset which can be found :
