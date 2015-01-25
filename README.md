@@ -3,7 +3,7 @@
 ##Usage of code
 
 1. Place "run_analysis.R" script file into your working directory of R
-2. Place the data folder "UCI HAR Dataset" in the same working directory (do not place analysis script inside the dataset folder)</li>
+2. Place the data folder "UCI HAR Dataset" in the same working directory (do not place analysis script inside the dataset folder)
 3. Run the analysis script in R with command: source("run_analysis.R")
 
 ##Description of data
@@ -18,9 +18,9 @@ Description of subject's activity (e.g. Walking, Laying)
 Index number of subject's activity
 
 ### Average of specific measurement
-Several
+Data labels with "mean()" are averages of different measurements. Measurement definition are described more detailed in the following section.
 
-Following measurement are included in data:
+Following averages of measurement are included in data:
 * tBodyAcc-mean()-X 
 * tBodyAcc-mean()-Y 
 * tBodyAcc-mean()-Z 
@@ -56,7 +56,9 @@ Following measurement are included in data:
 * fBodyBodyGyroJerkMag-mean() 
 
 ### Standard deviation of measurement
-Several standard deviations
+Data labels with "std()" are averages of different measurements. Measurement definition are described more detailed in the following section.
+
+Following standard deviations of measurement are included in data:
 * tBodyAcc-std()-X 
 * tBodyAcc-std()-Y 
 * tBodyAcc-std()-Z 
@@ -92,7 +94,7 @@ Several standard deviations
 * fBodyBodyGyroJerkMag-std()
 
 ## Description of measurements
-This description is a reference from the feature description of original dataset. See the file "features_info.txt" in original dataset which can be found in:
+This description is a reference from the feature description of original dataset. For more detailed description of original data, see the original file "features_info.txt" in original dataset which can be found :
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
